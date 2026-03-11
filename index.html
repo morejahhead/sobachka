@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoelace Vertical Slice</title>
+    <style>
+      html, body { margin: 0; overflow: hidden; background: #121212; font-family: Inter, system-ui, sans-serif; }
+      #hud {
+        position: fixed;
+        left: 12px;
+        top: 12px;
+        color: #f3f3f3;
+        background: rgba(0, 0, 0, 0.45);
+        padding: 10px 12px;
+        border-radius: 8px;
+        max-width: 360px;
+        line-height: 1.35;
+        font-size: 13px;
+      }
+      .accent { color: #ff9f43; }
+    </style>
+  </head>
+  <body>
+    <div id="hud">
+      <strong>👟 Shoelace Chaos (Vertical Slice)</strong><br>
+      ЛКМ по эглету — схватить и тянуть.<br>
+      Отпустить ЛКМ — эглет фиксируется в месте отпускания.<br>
+      <span class="accent">Цель:</span> продень шнурок через люверсы и сделай хаотичный бантик.
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
